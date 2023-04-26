@@ -15,7 +15,9 @@ for(let i = 0; i<= 2; i++) {
     if(passwordUsuario === passwordAutorizado) {
         console.log("Contraseña correcta, puedes ingresar");
         break;
-    } 
+    } else {
+        alert("La contraseña es incorrecta, vuelve a intentarlo")
+    }
 }
 
 
