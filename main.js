@@ -86,6 +86,8 @@ alert("Hola, recuerda que los plazo deben de ser por meses, por ejemplo 30,60,90
     alert("Hola, recuerda que los plazo deben de ser por meses, por ejemplo 30,60,90... hasta máximo 360") 
 } else if (dias == 360) {
     alert ("La rentabilidad para tu CDT con un plazo de " + dias + " días y un valor a invertir de " + valorInvertir + " es de "  +  montoFinal.toFixed(0));
+} else {
+    alert ("Si deseas simular un CDT mayor a 360 días, contactate con un asesor para que te cuente sobre las tasas preferenciales y los beneficios.")
 }
 
 
