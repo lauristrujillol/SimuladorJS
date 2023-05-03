@@ -6,6 +6,9 @@
 
 //Pido una contraseña al usuario hasta que la ingrese correctamente:
 
+let nombre = a => console.log("Hola " + a );
+nombre ("Ignacio");
+
 alert ("Hola, bienvenido... Ingresa tu contraseña para que puedas realizar la simulación.")
 
 const passwordAutorizado = 1234;
